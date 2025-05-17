@@ -23,7 +23,7 @@ Clique em "Open in Colab" no topo do notebook ou suba o arquivo `.ipynb` diretam
 
 #### 🔑 Google API Key (Gemini)
 
-1. Acesse: [https://makersuite.google.com/app/apikey](https://aistudio.google.com/app/apikey)
+1. Acesse: [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
 2. Copie sua chave de API.
 
 #### 🔑 GitHub API Token
