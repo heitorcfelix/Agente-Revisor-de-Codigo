@@ -34,9 +34,7 @@ Clique em "Open in Colab" no topo do notebook ou suba o arquivo `.ipynb` diretam
 
 #### 🔐 Definindo no ambiente Colab
 
-Adiocione as Keys ao Colab
-
-'GOOGLE_API_KEY' e 'GITHUB_API_KEY'
+Adiocione as Keys ao Colab: 'GOOGLE_API_KEY' e 'GITHUB_API_KEY'
 ---
 
 ## ▶️ Instruções de uso
