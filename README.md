@@ -18,41 +18,25 @@ Clique em "Open in Colab" no topo do notebook ou suba o arquivo `.ipynb` diretam
 
 ---
 
-### 2. Instale as dependências
 
-O notebook já executa automaticamente:
-
-```python
-%pip -q install google-genai google-adk PyGithub
-```
-
----
-
-### 3. Obtenha e configure suas chaves de API
+### 2. Obtenha e configure suas chaves de API
 
 #### 🔑 Google API Key (Gemini)
 
-1. Acesse: https://makersuite.google.com/app/apikey
+1. Acesse: [https://makersuite.google.com/app/apikey](https://aistudio.google.com/app/apikey)
 2. Copie sua chave de API.
 
 #### 🔑 GitHub API Token
 
 1. Vá até [GitHub Settings → Developer Settings → Personal Access Tokens](https://github.com/settings/tokens)
-2. Gere um token com escopos: `repo`, `read:user`
-3. Copie a chave gerada.
+2. Gere um token com escopos: repo, read:user, pull_requests:read/write, contents:read/write
+3. 3. Copie a chave gerada.
 
 #### 🔐 Definindo no ambiente Colab
 
-Execute no Colab antes de rodar o restante do notebook:
+Adiocione as Keys ao Colab
 
-```python
-from google.colab import userdata
-
-# Armazene suas chaves de forma segura no ambiente do Colab:
-userdata.set('GOOGLE_API_KEY', 'sua_google_api_key')
-userdata.set('GITHUB_API_KEY', 'seu_github_token')
-```
-
+'GOOGLE_API_KEY' e 'GITHUB_API_KEY'
 ---
 
 ## ▶️ Instruções de uso
