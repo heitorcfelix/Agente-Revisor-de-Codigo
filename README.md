@@ -29,7 +29,7 @@ Clique em "Open in Colab" no topo do notebook ou suba o arquivo `.ipynb` diretam
 #### 🔑 GitHub API Token
 
 1. Vá até [GitHub Settings → Developer Settings → Personal Access Tokens](https://github.com/settings/tokens)
-2. Gere um token com escopos: repo, read:user, pull_requests:read/write, contents:read/write
+2. Gere um token com escopos: pull_requests:read/write, contents:read/write
 3. 3. Copie a chave gerada.
 
 #### 🔐 Definindo no ambiente Colab
